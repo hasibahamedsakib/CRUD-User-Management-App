@@ -1,0 +1,36 @@
+.userForm {
+  text-align: center;
+}
+.userForm div label {
+  color: #fff;
+}
+.userForm div {
+  margin: 10px 0;
+}
+.userForm input:focus {
+  outline: none;
+}
+.userForm input {
+  height: 30px;
+  width: 400px;
+  font-size: 17px;
+}
+.userForm button {
+  height: 35px;
+  width: 100px;
+  margin: 0px 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 16px;
+  margin-bottom: 5px;
+  border: none;
+}
+.userForm button:hover {
+  background-color: rgb(9, 106, 158);
+
+  color: #fff;
+}
+.userForm button:focus {
+  background-color: green;
+  color: #fff;
+}
